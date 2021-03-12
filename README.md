@@ -2,6 +2,8 @@
 
 This program is designed to predict who would survive the titanic using a AI prediction algorithem. We use a dataset which contains the data that we use to predict.
 The dataset contains the varialbes:
+
+
   PClass --  (Travle Class e.g 1 Class, 2 Class & 3 Class)
   Name
   Sex
