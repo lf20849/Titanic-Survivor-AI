@@ -4,25 +4,16 @@ This program is designed to predict who would survive the titanic using a AI pre
 The dataset contains the varialbes:
 
 
-  PClass --  (Travle Class e.g 1 Class, 2 Class & 3 Class)
-  
-  Name
-  
-  Sex
-  
-  Age
-  
-  SibSp  --  (Siblings & Spouses)
-  
-  Parch  --  (Parent & Children)
-  
-  Ticket
-  
-  Fare
-  
-  Cabin
-  
-  Embarked -- (Where they got on the ship e.g S, Q & C)
+    PClass --  (Travle Class e.g 1 Class, 2 Class & 3 Class)
+    Name
+    Sex
+    Age
+    SibSp  --  (Siblings & Spouses)
+    Parch  --  (Parent & Children)
+    Ticket
+    Fare
+    Cabin
+    Embarked -- (Where they got on the ship e.g S, Q & C)
     
   
 For embarked S is Southampton, Q is Queenstown and C is Cherborg
