@@ -5,18 +5,18 @@ The dataset contains the varialbes:
 
 
     PClass --  (Travle Class e.g 1 Class, 2 Class & 3 Class)
-    Name
-    Sex
-    Age
+    Name  -- (Name of Person)
+    Sex  -- (Gender of Person)
+    Age  -- (Age of Person)
     SibSp  --  (Siblings & Spouses)
     Parch  --  (Parent & Children)
-    Ticket
-    Fare
-    Cabin
+    Ticket --  (Ticket Number)
+    Fare  --  (Price of Ticket)
+    Cabin  -- (Cabin/Room Number)
     Embarked -- (Where they got on the ship e.g S, Q & C)
     
   
-For embarked S is Southampton, Q is Queenstown and C is Cherborg
+-- For embarked S is Southampton, Q is Queenstown and C is Cherborg
 
 With the data having empty fields we decided to use pre-processing to find corrolations between certain variables and from that determin what values should be there.
 With pre-processing we were able to find the medain value of age using the mean age of each gender and which class they belonged to. When it came embarked we just 
