@@ -33,7 +33,7 @@ With all that done then what we did is put the cabins into decks as we had the s
         Cabin E is mostly first class(83%) and partly second class(10%) and a small amout is third class(7%)
         Cabin F is mostly second class(62%) and partly thrid class(38%)
         Cabin G is all thrid class
-        Cabin T has only one person and is in first class
+        Cabin T has only one person and they are in first class
 
 
 -- With cabin T is it most like cabin a and therefore we put then togeter.
