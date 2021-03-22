@@ -36,5 +36,16 @@ With all that done then what we did is put the cabins into decks as we had the s
         Cabin T has only one person and they are in first class
 
 
--- With cabin T is it most like cabin a and therefore we put then togeter.
+-- With cabin T is it most like cabin A and therefore we put then togeter.
+
+After this we found ther survival rare of each cabin and displayed it graphically, with this information we can see that each cabin had different survival rate and this shows us that each passenger class had different survival rate. From this we see that first class has the highest and third class has the lowest.
+
+
+The cabins are grouped as such:
+
+        A, B & C
+        D, E
+        F, G
+        
+Now that all the missing values are filled in we then displayed more corrolations of the new catagories as to see what the missing data effect was on the corrolations. These new corrolations were displayed graphically. As ther is a vast range of ages we decidec to put them into bins which allowed for us to set ranges of people ages and find a the survival rate of different age groups.
         
