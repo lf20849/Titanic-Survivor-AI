@@ -47,5 +47,13 @@ The cabins are grouped as such:
         D, E
         F, G
         
-Now that all the missing values are filled in we then displayed more corrolations of the new catagories as to see what the missing data effect was on the corrolations. These new corrolations were displayed graphically. As ther is a vast range of ages we decidec to put them into bins which allowed for us to set ranges of people ages and find a the survival rate of different age groups.
+Now that all the missing values are filled in we then displayed more corrolations of the new catagories as to see what the missing data effect was on the corrolations. These new corrolations were displayed graphically. As ther is a vast range of ages we decidec to put them into bins which allowed for us to set ranges of people ages and find a the survival rate of different age groups. Once that is compleated we also decided replace some titles of the passengers to more common ones so it make it easier for the prediction model to see if someone was married or not which will help us see if family survival rate was different dependent on wether they were married or not. We also grouped the different tickets together and the frequency of how many time that ticket was bought. Family sizes was also important and we grouped them together too. 
+
+
+With all of the data now clean and grouped together we were able to use non-numerical & hot-one encoding to convert some of the string data into integers to make it easier for the prediction model to understand the data. Combining the two datasets into one big dataset. After that we find the standard deviation of the dataset and fill in any missing values with either 1 or 0.
+
+
+Now we use the machine learing model Random Forest to determin the accuracy of each fold of the dataset and display the mean feature importance between the folds graphical as well as a curve graph of the folds. This allowed us to analyes the folds and determin how accurate the machine learning prediction model was per fold. We do one last check to see if there are any missing values using a heatmap before storing the prediction data into a csv file. Once that is done then the program cleans the new prediction dataset as the survival column has 1.0 or 0.0 as a result and therefor it need to converted to an intger not a float which the program does.
+
+The final prediction dat is stored in a csv file and then is displayed.
         
