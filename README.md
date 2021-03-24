@@ -55,5 +55,5 @@ With all of the data now clean and grouped together we were able to use non-nume
 
 Now we use the machine learing model Random Forest to determin the accuracy of each fold of the dataset and display the mean feature importance between the folds graphical as well as a curve graph of the folds. This allowed us to analyes the folds and determin how accurate the machine learning prediction model was per fold. We do one last check to see if there are any missing values using a heatmap before storing the prediction data into a csv file. Once that is done then the program cleans the new prediction dataset as the survival column has 1.0 or 0.0 as a result and therefor it need to converted to an intger not a float which the program does.
 
-The final prediction dat is stored in a csv file and then is displayed.
+The final prediction data is stored in a csv file and then is displayed.
         
